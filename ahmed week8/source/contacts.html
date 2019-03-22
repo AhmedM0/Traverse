@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>ContactPage</title>
+      <link rel="stylesheet" type="text/css" href="css/site.css">
+      <link href="https://fonts.googleapis.com/css?family=Domine:400,700|Lato" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script>
+         function sendForm() {
+         alert("Do you want to send this message?");
+         }
+      </script>
+      <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+   </head>
+   <body class="body_gradient">
+      <div id="wholeForm">
+         <h1></h1>
+         <div id="formbox">
+            <form>
+               <label>First Name</label>
+               <input maxlength="20" type="text" name="First Name" placeholder="First Name...">
+               <label>Last Name</label>
+               <input maxlength="20" type="text" name="Last Name" placeholder="Surname...">
+               <label>Email</label>
+               <input maxlength="35" type="text" name="Email"
+                  placeholder="Email Address...">
+               <label>Phone Number</label>
+               <input maxlength="11" type="text" name="Phone Number" placeholder="(123) 456 7890">
+               <label>Subject</label>
+               <select name="findout">
+                  <option>Jackets</option>
+                  <option>Tents</option>
+                  <option>Backpacks</option>
+               </select>
+               <label>Please Tell Us More</label>
+               <textarea name="comments">Comment...</textarea>
+               <div class="next">
+                  <input type="submit" onClick="sendForm()" name="submit" value="Send Message">
+               </div>
+            </form>
+         </div>
+         <footer>
+            <div id="copyRight">
+               <img src="imgs/finallogo.png">
+               <p> Design by Ahmed &copy; 2018</p>
+            </div>
+            <p>Traverse Outdoor Equipment&reg;</p>
+            <p>171 Rupert Street</p>
+            <p>Vancouver, BC</p>
+            <p>Phone: (388) 333-5354</p>
+            <p>E-mail: traverseequipment.com</p>
+            <div class="socialmedia">
+               <a href="#"><i class="fab fa-facebook-square"></i><</a><br>
+               <a href="#"><i class="fab fa-instagram"></i></a><br>
+               <a href="#"><i class="fab fa-twitter-square"></i></a><br>
+            </div>
+            <a href="index.html" class="home"><i class="fas fa-home"></i>HOME</a>
+      </div>
+      </footer>
+   </body>
+</html>
